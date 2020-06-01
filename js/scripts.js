@@ -102,7 +102,9 @@ function galToLiter(gallon) {
   let liter = gallon * 3.785;
   return liter;
 }
-// let gallon = 1;
-// console.log(galToLiter(10))
+let gallon = 1;
+console.log(galToLiter(10))
 let gallon = parseInt(prompt("How many gallons?"));
 console.log(galToLiter(gallon));
+
+// update git repo
